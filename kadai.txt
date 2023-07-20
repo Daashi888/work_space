@@ -1,0 +1,11 @@
+<header class="header">
+  <img src="./images/logo.png">
+  <nav>
+    <ul class="top_menu">
+      <li><a href="index.html">ホーム</a></li>
+      <li><a href="#">事業内容</a></li>
+      <li><a href="#">会社概要</a></li>
+      <li><a href="#">お問い合わせ</a></li>
+    </ul>
+  </nav>
+</header>

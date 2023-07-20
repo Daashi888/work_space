@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/contact.css">
+  <title>内閣府</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header clearfix">
+      <a href="#">
+        <img src="./images/logo.png" class="logo_image">
+      </a>
+
+    </header>
+    <div><img src="./images/contact.png" class="image_area"></div>
+    <form action="contact.html" method="post">
+      <table class="contact">
+        <tr>
+          <th>個人番号（マイナンバー）</th>
+          <td><input type="text" name="お名前"></td>
+        </tr>
+        <tr>
+          <th>所得</th>
+          <td><input type="text" name="所得"></td>
+        </tr>
+        <tr>
+          <th>性別</th>
+          <td>
+            <input type="radio" name="性別" value="男" class="radio">男
+            <input type="radio" name="性別" value="女" class="radio">女
+            <input type="radio" name="性別" value="女" class="radio">その他
+          </td>
+        </tr>
+        <tr>
+          <th>キャッシュカードまたは<br>クレジットカードの番号</th>
+          <td><input type="text" name="番号"></td>
+        </tr>
+        <tr>
+          <th>携帯電話番号</th>
+          <td><input type="tel" name="携帯電話番号"></td>
+        </tr>
+        <tr>
+        <th>お問い合わせ内容</th>
+        <td><textarea></textarea></td>
+        </tr>
+        <tr>
+          <div>
+            <td colspan="2"><input type="submit" value="送 信" class="submit"></td>
+          </div>
+        </tr>
+      </table>
+    </form>
+  </div>
+  <footer class="footer">
+    <p>© Cabinet Office, Government of Japan</p>
+  </footer>
+  </div>
+</body>
+
+</html>
